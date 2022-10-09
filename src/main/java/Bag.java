@@ -16,7 +16,7 @@ public abstract class Bag {
     private String color;
     private int numberOfContents;
     private int capacity;
-    private StringBuilder contents;
+    private String[] contents;
 
 
 
@@ -34,7 +34,7 @@ public abstract class Bag {
         this.color = color;
         this.numberOfContents = 0;
         this.capacity = capacity;
-        this.contents = [];}
+        this.contents = new String[]{};}
     }
 
 
