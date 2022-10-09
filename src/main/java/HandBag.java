@@ -27,7 +27,7 @@ public class HandBag extends Bag{
      * Increase the capacity of this bag by 1.
      */
     @Override
-    public void enhance() {
+    public static void enhance() {
         /* TODO: Implement this method.
          *       You may want to use the increaseCapacity() method that was
          *       implemented in Bag.
